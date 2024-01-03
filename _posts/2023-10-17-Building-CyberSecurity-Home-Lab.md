@@ -4,7 +4,7 @@ author: Vince Jang
 date: 2023-10-17 00:00:00 +0000
 categories: [projects]
 tags: [projects]
-image: /dd/to/image
+image: /dd/to/img
 render_with_liquid: false
 ---
 
@@ -43,7 +43,7 @@ to begin the Cybersecurity Homelab project, I have first created a network topol
 
 ## Network Topology
 
-![images](assets/images/dd.png)
+![images](assets/img/dd.png)
 
 #### <center> Topology Breakdown <center>
 
