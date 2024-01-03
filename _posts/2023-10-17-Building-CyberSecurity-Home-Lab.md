@@ -1,9 +1,11 @@
 ---
 title:  "Building CyberSecurity HomeLab"
+author: Vince Jang
 date: 2023-10-17 00:00:00 +0000
 categories: [projects]
 tags: [projects]
 image: /dd/to/image
+render_with_liquid: false
 ---
 
 
