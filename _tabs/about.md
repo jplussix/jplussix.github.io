@@ -18,7 +18,5 @@ order: 4
 
 #### Thank you for visiting me on this exciting venture. Here's to learning, evolving, and building a community of aspiring cybersecurity professionals!
 
-#### Warm regards,
-
 
 #### Vince Jang
