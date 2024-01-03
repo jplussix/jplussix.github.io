@@ -43,7 +43,7 @@ to begin the Cybersecurity Homelab project, I have first created a network topol
 
 ## Network Topology
 
-![images](assets/img/dd.png)
+![images](/assets/img/dd.png)
 
 #### <center> Topology Breakdown <center>
 
