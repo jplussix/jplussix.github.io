@@ -47,12 +47,12 @@ for this project, I will be building a physical network with componets including
 | ---- | ---- | ---- | ---- |
 | **Device** | **Hostname** | **Interface** | **IP configuration** |
 | **R1** | EXT-RTR | Gig 0/0/0 | 192.168.1.1/24 |
-| Gig 0/0/1 | 200.10.5.1/16 |  |  |
+| Gig 0/0/1 | 200.10.5.1/16 |
 | **R2** | R2 | Gig 0/0/0 | 100.50.10.1/16 |
-| Gig 0/0/1 | 200.10.1.1/16 |  |  |
+|  |  | Gig 0/0/1 | 200.10.1.1/16 |
 |  |  | Lo0 | 8.8.8.8/32 |
 | **R3** | BAD-GUY-RTR | Gig 0/0/1 | 100.50.20.1/16 |
-| Gig 0/0/0 | 192.168.2.1/24 |  |  |
+|  |  |Gig 0/0/0 | 192.168.2.1/24 |
 | **S1** | S1 | VLAN1 | 192.168.1.2/24 |
 | **S2** | S2 | VLAN1 | 192.168.2.2/24 |
 | **PC-1** |  |  |  |
