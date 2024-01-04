@@ -65,55 +65,55 @@ for this project, I will be building a physical network with componets including
 
 #### Switch - Ex: S1
 
-no ip domain-lookup
-hostname S1
-enable secret class
-interface vlan 1
-ip address 192.168.1.2 255.255.255.0
-description limit access for remote users.
-no shut
-exit
-ip default-gateway 192.168.1.1
-line con 0
-password cisco
-line vty 0 4
-password cisco
-login
-line vty 5 15
-password cisco
-login
-end
+no ip domain-lookup  
+hostname S1  
+enable secret class  
+interface vlan 1  
+ip address 192.168.1.2 255.255.255.0  
+description limit access for remote users.  
+no shut  
+exit  
+ip default-gateway 192.168.1.1  
+line con 0  
+password cisco  
+line vty 0 4  
+password cisco  
+login  
+line vty 5 15  
+password cisco  
+login  
+end  
 
 #### Router - Ex: R1
 
-hostname EXT-RTR
-enable secret class
-no ip domain lookup
-ip domain name mayojang.com
-username admin password cisco
-interface GigabitEthernet0/0/0
-description connect to S1
-ip address 192.168.1.1 255.255.255.0
-no shut
-interface GigabitEthernet0/0/1
-description connect to R2
-ip address 200.10.5.1 255.255.0.0
-no shut
-ip route 0.0.0.0 0.0.0.0 200.10.1.1
-ip ssh version 2
-show ip ssh
-crypto key generate rsa 
-2048
-line con 0
- password cisco
- login
-line vty 0 4
- login
- transport input ssh
-line vty 5 15
- login
- transport input ssh
-end
+hostname EXT-RTR  
+enable secret class  
+no ip domain lookup  
+ip domain name mayojang.com  
+username admin password cisco  
+interface GigabitEthernet0/0/0  
+description connect to S1  
+ip address 192.168.1.1 255.255.255.0  
+no shut  
+interface GigabitEthernet0/0/1  
+description connect to R2  
+ip address 200.10.5.1 255.255.0.0  
+no shut  
+ip route 0.0.0.0 0.0.0.0 200.10.1.1  
+ip ssh version 2  
+show ip ssh  
+crypto key generate rsa   
+2048  
+line con 0  
+ password cisco  
+ login  
+line vty 0 4  
+ login  
+ transport input ssh  
+line vty 5 15  
+ login  
+ transport input ssh  
+end  
 
 ## Trouble Shooting
 
