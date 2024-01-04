@@ -39,7 +39,7 @@ for this project, I will be building a physical network with componets including
 
 ## Topology
 
-![images](/assets/img/Building-network-topology.png)
+![images](/assets/img/Building-network-topology.png){: w="700" h="400"}
 
 ## Basic Device Configuration
 
