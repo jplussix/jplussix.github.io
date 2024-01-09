@@ -33,26 +33,26 @@ I will use an algorithm to extract user name and password from the json file(Use
 
 ### Pseudocode
 
-Import libraries
-function to compare passwords with the rocyou.txt
-get user_name and password from user_info
-check if user_password in rockyou
-main function
-load user hashes from json
-read all user hashes from json
-begin main loop
-use while loop to users enter for the file path or to exit
-print "BYE" and exit the loop (press e)
-try to load user hashed from the file by the user input in binary mode
-use hash library to calculate sha256 value of the file and convert the hash to hexadecimal representiation using
-store the resulting SHA256 hash in a variable.
-update all changes
-create dictionary containing the timestamp filepath and SHA256 hash.
-Append the dictionary to the data list.
-ask user for password path
-check passwords using compare fuction above.
-print result and save results to a results.json(do not print password on console, but results file)
-print error message if user wrong input.
+Import libraries  
+function to compare passwords with the rocyou.txt  
+get user_name and password from user_info  
+check if user_password in rockyou  
+main function  
+load user hashes from json  
+read all user hashes from json  
+begin main loop  
+use while loop to users enter for the file path or to exit  
+print "BYE" and exit the loop (press e)  
+try to load user hashed from the file by the user input in binary mode  
+use hash library to calculate sha256 value of the file and convert the hash to hexadecimal representiation using  
+store the resulting SHA256 hash in a variable.  
+update all changes  
+create dictionary containing the timestamp filepath and SHA256 hash.  
+Append the dictionary to the data list.  
+ask user for password path  
+check passwords using compare fuction above.  
+print result and save results to a results.json(do not print password on console, but results file)  
+print error message if user wrong input.  
 
 ## Script
 
