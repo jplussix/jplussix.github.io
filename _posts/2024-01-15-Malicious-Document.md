@@ -4,7 +4,7 @@ author: Vince Jang
 date: 2024-01-15 00:00:00 +0000
 categories: [projects]
 tags: [projects]
-image: /assets/img/dd.png
+image: /assets/img/pic.10.3.png
 render_with_liquid: false
 ---
 
