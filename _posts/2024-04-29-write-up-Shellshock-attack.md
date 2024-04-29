@@ -4,7 +4,7 @@ author: Vince Jang
 date: 2024-04-29 00:00:00 +0000
 categories: [writeup]
 tags: [writeup]
-image: /assets/img/pic14.6.png
+image: /assets/img/pic14.6.PNG
 render_with_liquid: false
 ---
 
