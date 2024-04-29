@@ -1,5 +1,5 @@
 ---
-title:  "Write up - Shellshock Attack [Letsdefence]"
+title:  "Write up - Shellshock Attack [Letsdefend]"
 author: Vince Jang
 date: 2024-04-29 00:00:00 +0000
 categories: [writeup]
